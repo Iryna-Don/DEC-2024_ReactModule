@@ -1,0 +1,14 @@
+.nameOfCourse{
+    font-size: 2rem;
+    border: 1px solid coral;
+    text-align: center;
+    width: 35vw;
+    padding: 0.5rem;
+}
+.nameOfCourse:hover {
+    color: coral;
+    font-weight: bold;
+    box-shadow: 10px 10px 5px 0 rgba(255,127,80,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0 rgba(255,127,80,0.75);
+    -moz-box-shadow: 10px 10px 5px 0 rgba(255,127,80,0.75);
+}

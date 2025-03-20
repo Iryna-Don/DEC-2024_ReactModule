@@ -24,3 +24,5 @@ dist-ssr
 *.sw?
 /src/assets/react.svg
 /public/vite.svg
+/src/data.ts
+/arrays.ts
