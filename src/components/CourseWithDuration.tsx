@@ -21,10 +21,11 @@ interface CourseWithDurationProps {
 }
 
 const CourseWithDuration: FC<CourseWithDurationProps> = ({value}) => {
+    const {title, monthDuration} = value;
     return (
         <div className={styles.card}>
-            <p>{value.title}</p>
-            <p>{value.monthDuration} months</p>
+            <p>{title}</p>
+            <p>{monthDuration} months</p>
         </div>
     );
 };
