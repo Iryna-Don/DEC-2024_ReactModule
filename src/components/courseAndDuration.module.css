@@ -1,0 +1,14 @@
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border: 1px solid coral;
+    margin: 2rem;
+    gap: 1rem;
+}
+.card:hover{
+    box-shadow: 10px 10px 5px 0 rgba(255,127,80,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0 rgba(255,127,80,0.75);
+    -moz-box-shadow: 10px 10px 5px 0 rgba(255,127,80,0.75);
+}
