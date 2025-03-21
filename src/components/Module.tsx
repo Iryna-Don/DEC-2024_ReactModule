@@ -1,4 +1,5 @@
 import {FC} from 'react';
+import styles from './module.module.css'
 // interface Props {
 //     value: string;
 // }
@@ -7,9 +8,7 @@ import {FC} from 'react';
 const Module:FC<{ value:string }> = ({value}) => {
 
     return (
-        <div>
-            <p>{value}</p>
-        </div>
+            <p className={styles.roundModule}>{value}</p>
     );
 };
 
