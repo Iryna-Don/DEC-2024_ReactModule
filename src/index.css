@@ -1,1 +1,40 @@
-@import "tailwindcss";
+/*@import "tailwindcss";*/
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3rem;
+}
+
+.btnDiv{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: coral;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    z-index: 1;
+}
+
+.data{
+    margin-top: 7rem;
+}
+
+.button {
+    border-radius: 10px;
+    border: none;
+    transition: .3s;
+    background: white;
+    width: 10rem;
+    height: 4rem;
+    padding: 1rem;
+    margin-right: 1rem;
+
+}
+
+.button:hover {
+    box-shadow: lightcoral 0 0 0 40px inset;
+    color: white;
+    transition: .3s;
+
+}
