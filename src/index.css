@@ -1,1 +1,17 @@
-@import "tailwindcss";
+/*@import "tailwindcss";*/
+.menu {
+    display: flex;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    margin-right: 3vw;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+a:hover {
+    color: gold;
+    transform: scale(1.5);
+}
