@@ -1,1 +1,95 @@
-@import "tailwindcss";
+/*@import "tailwindcss";*/
+*{
+        box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+}
+
+.productCard{
+    padding: 1rem;
+    border: 1px solid coral;
+}
+
+.carousel {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+}
+
+.imgProduct {
+    max-height: 20vh;
+}
+
+button {
+    position: absolute;
+    background: white;
+    border: none;
+    cursor: pointer;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.prev {
+    left: 1rem;
+}
+
+.next {
+    right: 1rem;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    position: relative;
+}
+
+.ratingBody {
+    position: relative;
+    font-size: 2rem;
+    display: inline-block;
+    width: calc(var(--stars-count) * 1.2em);
+    white-space: nowrap;
+}
+
+.ratingBody::before {
+    content: '★★★★★';
+    display: block;
+    color: gray;
+    font-size: 1em;
+    letter-spacing: 0.15em;
+}
+
+.ratingActive {
+    position: absolute;
+    width: calc(var(--rating-width) * 0.81);
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: width 0.2s ease-in-out;
+}
+
+.ratingActive::before {
+    content: '★★★★★';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    color: gold;
+    font-size: 1em;
+    letter-spacing: 0.15em;
+}
+.ratingValue{
+    font-size: 1rem;
+}
+.qrCode{
+    max-width: 7vw;
+}
