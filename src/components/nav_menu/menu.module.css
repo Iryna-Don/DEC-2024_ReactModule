@@ -1,0 +1,44 @@
+.navUl {
+    list-style-type: none;
+    display: flex;
+}
+
+ul > li {
+    margin-right: 2rem;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+a:hover {
+    color: gold;
+}
+
+.submenu {
+    position: absolute;
+    background: white;
+    border: 1px solid gold;
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+    top: 100%;
+    left: 0;
+    min-width: 120px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.keyLi {
+    position: relative;
+}

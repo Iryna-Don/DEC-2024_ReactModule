@@ -52,3 +52,13 @@ export default tseslint.config({
   },
 })
 ```
+#Uyj2GjyDDF
+
+Побудувати меню, з можливістю переходу на наступні маршрути:
+/users/jsonplaceholder – відобразити всіх об’єктів з  https://jsonplaceholder.typicode.com/users
+/users/dummyjson – відобразити всіх об’єктів з https://dummyjson.com/users
+/posts/jsonplaceholder- відобразити всіх об’єктів з  https://jsonplaceholder.typicode.com/posts
+/posts/dummyjson – відобразити всіх об’єктів з https://dummyjson.com/posts
+/comments/jsonplaceholder – відобразити всіх об’єктів з https://jsonplaceholder.typicode.com/comments
+/comments/dummyjson – відобразити всіх об’єктів з https://dummyjson.com/comments
+
