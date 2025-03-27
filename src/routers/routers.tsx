@@ -7,10 +7,10 @@ import HomePage from "../pages/HomePage.tsx";
 export const routers = createBrowserRouter([
     {
         path: '/', element: <MainLayout/>, children: [
-            {index:true, element: <HomePage/>},
-            {path:'users', element: <UsersPage/>, children:[
-                   {path:':id/carts', element: <CartsPage/>},
-                ]},
+            {index: true, element: <HomePage/>},
+            {path: 'users', element: <UsersPage/>},
+            {path: 'users/:id/carts', element: <CartsPage/>},
+
         ]
     }
 ])
