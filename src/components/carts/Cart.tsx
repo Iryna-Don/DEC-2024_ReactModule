@@ -7,7 +7,7 @@ type CartProps = {
 const Cart:FC<CartProps> = ({cart}) => {
 const{id, userId}=cart;
     return (
-        <div>
+        <div className={'cartCard'}>
             cartId: {id} userId:{userId}
         </div>
     );
